@@ -27,6 +27,8 @@
 		8B167EFE29181988004C7C12 /* crashdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crashdump; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B167F0129181988004C7C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B167F0A2918220E004C7C12 /* OSAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSAnalytics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks/OSAnalytics.framework; sourceTree = DEVELOPER_DIR; };
+		8B167F0C291826FA004C7C12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B167F0D291826FA004C7C12 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		8B167EF529181988004C7C12 = {
 			isa = PBXGroup;
 			children = (
+				8B167F0C291826FA004C7C12 /* README.md */,
+				8B167F0D291826FA004C7C12 /* LICENSE */,
 				8B167F0029181988004C7C12 /* crashdump */,
 				8B167EFF29181988004C7C12 /* Products */,
 				8B167F092918220E004C7C12 /* Frameworks */,
