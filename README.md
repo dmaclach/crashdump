@@ -1,7 +1,8 @@
 # crashdump
 
 A small utility for converting macOS crashreport files (.ips) into text output which is the same as
-what you would see using Console.app to open them.
+what you would see using Console.app to open them. Note that .ips files are json, so you can also
+extract individual data fields out of them pretty easily.
 
 Works with macOS 12 (Monterey) and macOS 13 (Ventura) as of 2022-11-06. Uses private APIs so no
 guarantees moving forward.
